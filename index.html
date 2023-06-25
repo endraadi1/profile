@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Endra</title>
+    <script
+      src="https://kit.fontawesome.com/dc073e6d7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="navbar-fixed left-0 top-0 z-10 flex w-full items-center bg-transparent"
+    >
+      <div
+        class="relative flex w-full items-center justify-between bg-white opacity-70"
+      >
+        <div class="px-12">
+          <a href="#beranda" class="block py-6 font-bold text-slate-900"
+            >EndraAdi</a
+          >
+        </div>
+        <div class="flex items-center">
+          <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="absolute right-4 block lg:hidden"
+          >
+            <span class="hamburger-line origin-top-left"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line origin-bottom-left"></span>
+          </button>
+
+          <nav
+            id="nav-menu"
+            class="absolute right-2 top-full hidden w-full max-w-[250px] rounded-lg bg-white shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
+          >
+            <ul class="block lg:flex">
+              <li class="group">
+                <a
+                  href="#beranda"
+                  class="mx-8 flex py-2 group-hover:text-slate-200"
+                  >Beranda</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="#tentangsaya"
+                  class="mx-8 flex py-2 group-hover:text-slate-200"
+                  >Tentang Saya</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="#portfolio"
+                  class="mx-8 flex py-2 group-hover:text-slate-200"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="group">
+                <a
+                  href="#kontaksaya"
+                  class="mx-8 flex py-2 group-hover:text-slate-200"
+                  >Kontak Saya</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <section id="beranda">
+      <div
+        class="relative flex w-full flex-row self-center px-3 pt-20 md:h-[617px]"
+      >
+        <div
+          class="w-1/3 rounded-l-md bg-slate-100 text-center text-slate-900"
+        ></div>
+        <div class="w-2/3 overflow-hidden">
+          <img
+            src="src/img/endra.png"
+            width="590"
+            height="590"
+            class="mx-auto opacity-80"
+          />
+        </div>
+        <div
+          class="absolute bottom-16 left-10 font-semibold text-slate-900 md:left-40"
+        >
+          <h1 class="text-xl md:text-2xl">Hallloooo👋Saya</h1>
+          <h1 class="-mt-1 text-4xl font-bold tracking-wide md:text-6xl">
+            ENDRA ADI
+          </h1>
+          <p class="text-sm tracking-widest text-slate-950">
+            Web Developer | Web Designer
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- about me -->
+    <section id="tentangsaya">
+      <div class="mt-32 w-full px-12 py-14 md:px-44">
+        <div class="flex flex-col rounded-md bg-slate-100 md:flex-row">
+          <div
+            class="relative flex w-full flex-col justify-center px-3 md:w-2/5"
+          >
+            <div
+              class="mt-4 aspect-video overflow-hidden rounded-md md:absolute md:left-12 md:top-10 md:mt-0 md:aspect-square md:shadow-lg"
+            >
+              <img
+                src="src/img/endra.jpg"
+                class="scale-125 rounded-md"
+                height="256"
+              />
+            </div>
+          </div>
+          <div
+            class="flex w-full flex-col gap-3 px-8 py-2 md:w-3/5 md:py-9 md:leading-9"
+          >
+            <h1 class="text-xl font-semibold md:text-4xl">.... siapa saya?</h1>
+            <p>
+              Saya merupakan lulusan dari ITB Stikom Bali tahun 2022 dengan
+              jurusan Sistem Informasi. Saya memiliki kemampuan pada web
+              programming, khususnya web developer dan telah membuat beberapa
+              hasil yang digunakan pada tugas akhir dan project kerja sebelumnya
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about me -->
+
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="my-16 w-full px-12">
+        <h1 class="text-center text-4xl font-semibold">
+          <span class="text-7xl">‟</span>Project Saya
+        </h1>
+        <div class="mt-4 flex w-full flex-col gap-5 md:flex-row md:px-36">
+          <div
+            class="flex flex-col items-center rounded-lg px-6 py-2 text-justify shadow-lg"
+          >
+            <img src="src/img/projek1.png" width="80%" />
+            <h1 class="mt-3 text-xl font-semibold">Web Template Playground</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
+              temporibus, aliquid dolor ut quia facilis rerum, quos omnis natus
+              ea esse voluptates commodi eos laborum modi corporis nostrum?
+              Deleniti, recusandae?
+            </p>
+          </div>
+          <div class="mt-4 flex flex-col">
+            <div
+              class="flex flex-col items-center rounded-lg px-6 py-2 text-justify shadow-lg"
+            >
+              <img src="src/img/projek2.png" width="80%" />
+              <h1 class="mt-3 text-xl font-semibold">
+                Web Template Restaurant
+              </h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo,
+                temporibus, aliquid dolor ut quia facilis rerum, quos omnis
+                natus ea esse voluptates commodi eos laborum modi corporis
+                nostrum? Deleniti, recusandae?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- contact me -->
+    <section id="kontaksaya">
+      <div class="flex w-full flex-col items-center bg-slate-100 py-7">
+        <h1 class="text-center text-3xl font-semibold">Kontak Saya</h1>
+        <div
+          class="mt-5 flex flex-col items-center gap-4 md:flex-row md:gap-16 md:text-xl"
+        >
+          <div class="flex flex-row font-medium tracking-tight">
+            <i class="fa-solid fa-phone fa-lg"></i>
+            <p>+62 831-1754-2961</p>
+          </div>
+          <div class="flex flex-row font-medium tracking-tight">
+            <i class="fa-solid fa-envelope fa-lg"></i>
+            <p>endraadi269@gmail.com</p>
+          </div>
+          <div class="flex flex-row font-medium tracking-tight">
+            <i class="fa-solid fa-location-dot fa-lg"></i>
+            <div>
+              <p>Perum Bethe Lestari, Batubulan</p>
+              <p class="-mt-2">Gianyar</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row gap-4 p-3">
+          <a href="https://instagram.com/endraadi_?igshid=ZDc4ODBmNjlmNQ=="
+            ><i class="fa-brands fa-instagram fa-xl"></i
+          ></a>
+          <a href="https://www.facebook.com/endra.adi.16?mibextid=ZbWKwL"
+            ><i class="fa-brands fa-facebook fa-xl"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/kadek-endra-adi-sastrawan-s-kom-238a89125"
+            ><i class="fa-brands fa-linkedin fa-xl"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- end contact me -->
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
